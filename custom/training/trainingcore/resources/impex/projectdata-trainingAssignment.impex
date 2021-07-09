@@ -1,0 +1,35 @@
+# Macros / Replacement Parameter definitions
+$productCatalog=apparelProductCatalog
+$catalogVersion=catalogversion(catalog(id[default=$productCatalog]),version[default='Staged'])[unique=true,default=$productCatalog:Staged]
+$approved=approvalstatus(code)[default='approved']
+
+# Insert Vehicle
+INSERT_UPDATE Vehicle;code[unique=true];$catalogVersion;$approved;registrationNumber[unique=true]
+;32020;;;KL 10A 6717
+;32021;;;KL 59P 2288
+;32022;;;KL 07 007
+
+# Insert Driver
+INSERT_UPDATE Driver; driverId[unique=true,allownull=false];drivername;experience
+;10;Thor;5
+;11;IronMan;4
+;12;Captain;7
+;15;Hulk;8
+
+# Insert Dealer
+INSERT_UPDATE Dealer; dealerId[unique=true,allownull=false];dealername
+;10;Vogo
+;11;Zoom
+;12;Bounce
+
+# Insert Dealer To Driver and Dealer to Vehicle Relation
+UPDATE Dealer; dealerId[unique=true,allownull=false];driverId(driverId);registrationNumber(registrationNumber)
+;10;10;KL 10A 6717
+;11;11;KL 59P 2288
+;12;12;KL 07 007
+
+# Insert Driver To Vehicle Relation
+UPDATE Driver; driverId[unique=true,allownull=false];registrationNumber(registrationNumber)
+;10;KL 10A 6717
+;11;KL 59P 2288
+;12;KL 07 007

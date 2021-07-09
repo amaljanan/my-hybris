@@ -1,0 +1,34 @@
+<component name="libraryTable">
+  <library name="Backoffice Library">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/modules/adaptive-search/adaptivesearchbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/modules/commerce-services/commerceservicesbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/modules/search-and-navigation/solrfacetsearchbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/modules/backoffice-framework/platformbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/modules/api-registry/apiregistrybackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/modules/backoffice-framework/backofficesolrsearch/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/modules/base-commerce/basecommercebackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/modules/backoffice-applications/pcmbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/modules/personalization-integration/personalizationintegrationbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/modules/personalization/personalizationservicesbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/modules/base-commerce/promotionsbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/modules/search-services/searchbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/modules/base-commerce/voucherbackoffice/resources/backoffice" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/modules/adaptive-search/adaptivesearchbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/modules/api-registry/apiregistrybackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/modules/backoffice-applications/pcmbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/modules/backoffice-framework/backofficesolrsearch/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/modules/backoffice-framework/platformbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/modules/base-commerce/basecommercebackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/modules/base-commerce/promotionsbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/modules/base-commerce/voucherbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/modules/commerce-services/commerceservicesbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/modules/personalization-integration/personalizationintegrationbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/modules/personalization/personalizationservicesbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/modules/search-and-navigation/solrfacetsearchbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/modules/search-services/searchbackoffice/resources/backoffice" recursive="true" />
+  </library>
+</component>

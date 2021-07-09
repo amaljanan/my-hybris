@@ -1,0 +1,17 @@
+@import '/home/pituser/hybris2011/CXCOMM201100P_8-70005693/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/cng/scss/cockpitng-globals.scss';
+@import '/home/pituser/hybris2011/CXCOMM201100P_8-70005693/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/backoffice/scss/backoffice-variables.scss';
+
+
+.yw-de_hybris_platform_adaptivesearch_widgets_searchContext {
+  .yas-selectors {
+    display: block;
+
+    .yas-language-selector {
+        display: inline-block;
+    }
+
+    .yas-currency-selector {
+        display: inline-block;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+@import '/home/pituser/hybris2011/CXCOMM201100P_8-70005693/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/cng/scss/cockpitng-globals.scss';
+@import '/home/pituser/hybris2011/CXCOMM201100P_8-70005693/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/backoffice/scss/backoffice-variables.scss';
+
+/*================================
+    UserRoleChooser Popup (Systembar)
+================================*/
+// Relevant Changes applied to the User Role Chooser Popup
+
+
+.yw-roleChooser {
+	&-empty-list-state {
+		display: none;
+	}
+}
